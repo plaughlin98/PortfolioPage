@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./fontawesome-free-5.13.0-web/css/all.css">
+    <link rel="stylesheet" href="./css/master.css" type="text/css">
+    <title>Peter's Portfolio</title>
+  </head>
+
+  <body>
+    <!--top nav bar-->
+    <div class="topnav">
+      <!-- drop down button-->
+      <div class="dropdown">
+      <a onClick="openDropdown()" class="dropbtn">Projects ></a>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#">Poker</a>
+        <a href="#">ToDo List</a>
+        <a href="#">Upcoming Project</a>
+        <a href="#">Upcoming Project</a>
+      </div>
+      </div>
+      <a href="#about">About</a>
+    </div>
+
+    <header class="showcase" >
+        <div class="content">
+          <div class="circle"></div>
+         <div class="arrow">
+          <i class="fa fa-arrow-down fa-4x"></i>
+        </div>
+          <i class="fas fa-user-circle fa-10x"></i>
+          <!-- below is grey background circle-->
+          
+          <div class="title">
+          Peter Laughlin's Portfolio
+          </div>
+
+          <div class="text">
+            Contact Info:
+            </div>
+
+          <div class="text">
+            Phone: (773)-988-8866
+            </div>
+
+            <div class="text">
+              Email: plaughlin98@gmail.com
+              </div>
+        </div>
+    </header>
+    <!-- Links to seperate Pages  -->
+    <section class="options">
+    <!-- Below Creates a class for the grids-->
+    <div class="container grid-3 center">
+      <a class="resume_link" href="./resume_page.html">
+        <div class="resume">
+        <i class="fas fa-folder-open fa-4x"></i>
+        <h3>CV</h3>
+        </div>
+      </a>
+
+      <a class="linked_in" href="https://www.linkedin.com/in/peter-laughlin-6a9a05107" target="_blank">
+        <div class="linkedin">
+        <i class="fab fa-linkedin fa-4x"></i>
+        <h3>LinkedIn</h3>
+        </div>
+      </a>
+
+      <a class="project_link" href="./projects_page.html">
+        <div class="projects">
+        <i class="fas fa-briefcase fa-4x"></i>
+        <h3>Projects</h3>
+        </div>
+      </a>
+    </div>
+    </section>
+
+<!-- about -->
+<section class="about bg-light">
+  <div class="container">
+    <div class="grid-1">
+      <div class="center">
+        <h3 id="about">About Me</h3>
+        <i class="fas fa-user-circle fa-10x"></i>
+      </div>
+      <div class="text">
+        <p>I am a Financial Analyst and self-taught developer looking to launch a career into the world of Web Development. My passion for computer programming, along with a wide variety of skills/knowledge gained from multiple industries, puts me in a position to succeed in this exciting industry. </p>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <footer class="center">
+    <p>Peter Laughlin &copy 2020</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
